@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+function l1(){
+    document.getElementById("out").innerHTML+="1"
+}
+
+function l2(){
+    document.getElementById("out").innerHTML+="2"
+}
+function l3(){
+    document.getElementById("out").innerHTML+="3"
+}
+function l4(){
+    document.getElementById("out").innerHTML+="4"
+}
+function l5(){
+    document.getElementById("out").innerHTML+="5"
+}
+function l6(){
+    document.getElementById("out").innerHTML+="6"
+}
+function l7(){
+    document.getElementById("out").innerHTML+="7"
+}
+function l8(){
+    document.getElementById("out").innerHTML+="8"
+}
+function l9(){
+    document.getElementById("out").innerHTML+="9"
+}
+
+        funtion liczenie(){
+        
+        var a =document.getElementById('a').value;
+        var b =document.getElementById('b').value;
+        var c =document.getElementById('c').value;
+        var d =document.getElementById('d').value;
+        var e =document.getElementById('e').value;
+        var f =document.getElementById('f').value;
+        var h =document.getElementById('g').value;
+        var h =document.getElementById('h').value;
+        var i =document.getElementById('i').value;
+        var dzielenie =document.getElementById('a').value;
+        var mnozenie =document.getElementById('a').value;
+        var dodawanie =document.getElementById('a').value;
+        var odejmowanie=document.getElementById('a').value;
+        }
+    </script>
+    <style>
+        .all {
+            margin-top: 100px;
+            margin-left: 100px;
+            background-color: rgb(51, 199, 236);
+            height: 430px;
+            width: 330px;
+            padding: 20px;
+            text-align: left;
+            font-size: 20px;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            margin-bottom: 5px;
+            border-style: solid;
+            border-color: blanchedalmond;
+            
+        }
+
+        .ekran {
+            background-color:rgb(255, 255, 255);
+            width: 330px;
+            height: 100px;
+            font-size: 30px;
+            text-align: right;
+            border-style: solid;
+            border-color: black;
+          
+        }
+        .klaw {
+            margin-left: 10px;
+            background-color: salmon;
+            margin-top: 110px;
+            text-align: left;
+            width: 327px;
+        }
+
+        .C{
+            width:180px;
+            height: 55px;
+            border:3px solid black;
+        }
+
+        .a{
+            height: 55px;
+            width: 55px;
+            border:3px solid black;
+        }
+
+
+button:hover {
+  background-color: rgb(150, 133, 103);
+}
+
+button:active {
+  background-color: orange;
+}
+        .b{
+            height: 55px;
+            width: 65px;
+            border:3px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="all">
+      <b><button style="background-color:  rgb(51, 199, 236); border-color:  rgb(51, 199, 236);;">☰ </button> Standardowy</b>  
+        <div class="ekran" id="out">
+        <o
+        </div>
+        <div class="klaw">
+            <button class="C" id="" value="C">C</button> 
+            <button class="b" id="">%</button>
+            <button class="b">⌫</button>  <br>
+            <button class="a" value="1" id="a" onclick="l1()">1</button>
+            <button class="a" value="2" id="b" onclick="l2()">2</button>
+            <button class="a" value="3" id="c" onclick="l3()"">3</button>
+            <button class="b">+</button>
+            <button  class="b" style="margin-top: 1px; margin-bottom: 1px;" >/</button>  <br>
+            <button class="a"  value="4" id="d" onclick="l4()">4</button>
+            <button class="a"  value="5" id="e" onclick="l5()">5</button> 
+            <button class="a"  value="6" id="f" onclick="l6()">6</button>
+            <button class="b">-</button>
+            <button class="b">X</button> <br>
+            <button class="a"  value="7" id="g" onclick="l7()">7</button> 
+            <button class="a"  value="8" id="h" onclick="l8()">8</button>  
+            <button class="a"  value="9" id="i" onclick="l9()">9</button>    
+            <button class="b">,</button>  
+            <button class="b">=</button>     <br>
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>
