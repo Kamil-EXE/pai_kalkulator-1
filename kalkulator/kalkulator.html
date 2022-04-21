@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>kalkulator</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <div id="kalkulator">
+        <br>
+        <input type="text" id="display">
+        <br>
+        <br>
+        <input type="button" value="*" id="przyciski" onclick="wyswietlanie('*')">
+        <input type="button" value="/" id="przyciski" onclick="wyswietlanie('/')">
+        <input type="button" value="C" id="usuwanie" onclick="wyswietlanie('c')">
+        <br>
+        <input type="button" value="7" id="przyciski1" onclick="wyswietlanie('7')">
+        <input type="button" value="8" id="przyciski1" onclick="wyswietlanie('8')">
+        <input type="button" value="9" id="przyciski1" onclick="wyswietlanie('9')">
+        <input type="button" value="+" id="przyciski" onclick="wyswietlanie('+')">
+        <br>
+        <input type="button" value="4" id="przyciski1" onclick="wyswietlanie('4')">
+        <input type="button" value="5" id="przyciski1" onclick="wyswietlanie('5')">
+        <input type="button" value="6" id="przyciski1" onclick="wyswietlanie('6')">
+        <input type="button" value="-" id="przyciski" onclick="wyswietlanie('-')">
+        <br>
+        <input type="button" value="1" id="przyciski1" onclick="wyswietlanie('1')">
+        <input type="button" value="2" id="przyciski1" onclick="wyswietlanie('2')">
+        <input type="button" value="3" id="przyciski1" onclick="wyswietlanie('3')">
+        <input type="button" value="⌫" id="przyciski0" onclick="backspace()">
+        <br>
+        <input type="button" value="0" id="przyciski1" onclick="wyswietlanie('0')">
+        <input type="button" value="." id="przyciski0" onclick="wyswietlanie('.')">
+        <input type="button" value="=" id="suma" onclick="suma()">
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
